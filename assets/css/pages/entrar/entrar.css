@@ -1,5 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  box-sizing: border-box;
+}
+
+/* @font-face {
+    font-family: ;
+    src: url();
+} */
 section {
-  background-image: url(/assets/images/global/fundoPadrao.png);
+  background-image: url(/assets/images/pexels-njeromin-14530325.jpg);
   background-size: cover;
   background-position: center center;
   height: 100vh;
@@ -23,28 +34,16 @@ section .conteudo p {
   font-size: 18px;
 }
 section .conteudo a {
-  background-color: white;
-  width: 170px;
-  height: 50px;
   display: flex;
   align-items: center;
   justify-content: center;
   text-decoration: none;
+  background-color: white;
+  width: 170px;
+  height: 50px;
   color: black;
   border-radius: 20px;
   font-size: 20px;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  border: none;
-  box-sizing: border-box;
-}
-
-/* @font-face {
-    font-family: ;
-    src: url();
-} */
-
-/*# sourceMappingURL=data:application/json;charset=utf-8,%7B%22version%22:3,%22sourceRoot%22:%22%22,%22sources%22:%5B%22../../../scss/pages/entrar/partials/_section.scss%22,%22../../../scss/global/_normalize.scss%22,%22../../../scss/global/_fonts.scss%22%5D,%22names%22:%5B%5D,%22mappings%22:%22AAAA;EACI;EACA;EACA;EACA;EACA;;AAEA;EACI;EACA;EACA;EACA;EACA;EACA;;AAEA;EACI;EACA;;AAGJ;EACI;EACA;EACA;;AAGJ;EACI;EACA;EACA;EACA;EACA;EACA;EACA;EACA;EACA;EACA;;;ACpCZ;EACI;EACA;EACA;EACA;;;ACJJ;AAAA;AAAA;AAAA%22,%22file%22:%22entrar.css%22%7D */
+/*# sourceMappingURL=data:application/json;charset=utf-8,%7B%22version%22:3,%22sourceRoot%22:%22%22,%22sources%22:%5B%22../../../scss/global/_normalize.scss%22,%22../../../scss/global/_fonts.scss%22,%22../../../scss/pages/entrar/partials/_section.scss%22%5D,%22names%22:%5B%5D,%22mappings%22:%22AAAA;EACI;EACA;EACA;EACA;;;ACJJ;AAAA;AAAA;AAAA;ACAA;EACI;EACA;EACA;EACA;EACA;;AAEA;EACI;EACA;EACA;EACA;EACA;EACA;;AAEA;EACI;EACA;;AAGJ;EACI;EACA;EACA;;AAGJ;EACI;EACA;EACA;EACA;EACA;EACA;EACA;EACA;EACA;EACA%22,%22file%22:%22entrar.css%22%7D */

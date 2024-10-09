@@ -1,8 +1,9 @@
 section {
-  background-image: url(/assets/images/global/fundoPadrao.png);
+  background-image: url(/assets/images/pexels-njeromin-14530325.jpg);
   background-size: cover;
   background-position: center center;
-  min-height: 100%;
+  background-attachment: fixed;
+  min-height: 100vh;
   padding-bottom: 20px;
 }
 section .titulo h1 {
@@ -20,13 +21,72 @@ section .conteudo {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 40px;
   padding-top: 5em;
 }
+section .conteudo p {
+  align-self: start;
+  margin-left: 40px;
+  font-size: 25px;
+  font-weight: 600;
+  color: white;
+}
+section .conteudo p.numero {
+  margin-bottom: 60px;
+  text-align: center;
+  width: 100%;
+  margin-left: 0;
+}
+section .conteudo p.centro {
+  text-align: center;
+  width: 100%;
+  margin-left: 0;
+}
 section .conteudo div {
+  margin: 10px 0 0px 0;
   width: 80%;
   height: 300px;
-  border: 1px solid white;
+  border-radius: 10px;
+}
+section .conteudo .primeiroCandidato {
+  background-image: url(/assets/images/candidatoUm);
+  background-size: cover;
+  background-position: center center;
+}
+section .conteudo .segundoCandidato {
+  background-image: url(/assets/images/candidatoDois.jfif);
+  background-size: cover;
+  background-position: center center;
+}
+section .conteudo .terceiroCandidato {
+  background-image: url(/assets/images/candidatoTres.avif);
+  background-size: cover;
+  background-position: center center;
+}
+section .button {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+section .button a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  width: 170px;
+  height: 50px;
+  color: black;
+  border-radius: 20px;
+  font-size: 20px;
+  text-decoration: none;
+}
+section .voltar {
+  position: fixed;
+  background: url(/assets/images/up-left-arrow_10117594.png);
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+  bottom: 20px;
+  right: 20px;
 }
 
-/*# sourceMappingURL=data:application/json;charset=utf-8,%7B%22version%22:3,%22sourceRoot%22:%22%22,%22sources%22:%5B%22../../../../scss/pages/candidatos/partials/section.scss%22%5D,%22names%22:%5B%5D,%22mappings%22:%22AAAA;EACI;EACA;EACA;EACA;EACA;;AAGI;EACI;EACA;EACA;EACA;;AAGJ;EACI;EACA;EACA;;AAIR;EACI;EACA;EACA;EACA;EACA;;AAEA;EACI;EACA;EACA%22,%22file%22:%22section.css%22%7D */
+/*# sourceMappingURL=data:application/json;charset=utf-8,%7B%22version%22:3,%22sourceRoot%22:%22%22,%22sources%22:%5B%22../../../../scss/pages/candidatos/partials/section.scss%22%5D,%22names%22:%5B%5D,%22mappings%22:%22AAAA;EACI;EACA;EACA;EACA;EACA;EACA;;AAGI;EACI;EACA;EACA;EACA;;AAGJ;EACI;EACA;EACA;;AAIR;EACI;EACA;EACA;EACA;;AAEA;EACI;EACA;EACA;EACA;EACA;;AAEA;EACI;EACA;EACA;EACA;;AAEJ;EACI;EACA;EACA;;AAIR;EACI;EACA;EACA;EACA;;AAGJ;EACI;EACA;EACA;;AAEJ;EACI;EACA;EACA;;AAEJ;EACI;EACA;EACA;;AAIR;EACI;EACA;EACA;;AAEA;EACI;EACA;EACA;EACA;EACA;EACA;EACA;EACA;EACA;EACA;;AAIR;EACI;EACA;EACA;EACA;EACA;EACA;EACA%22,%22file%22:%22section.css%22%7D */

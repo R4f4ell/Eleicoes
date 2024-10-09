@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  box-sizing: border-box;
+}
+
+/* @font-face {
+    font-family: ;
+    src: url();
+} */
+section {
+  background-image: url(/assets/images/pexels-njeromin-14530325.jpg);
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+section .urna {
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+section .urna .tela {
+  margin-bottom: 20px;
+}
+section .urna .tela .display {
+  background-color: #ffffff;
+  border: 2px solid #333;
+  padding: 10px;
+  border-radius: 5px;
+}
+section .urna .tela .display input[type=text] {
+  width: 100%;
+  font-size: 24px;
+  text-align: center;
+  border: none;
+  outline: none;
+}
+section .urna .teclado {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-gap: 10px;
+  justify-content: center;
+}
+section .urna .teclado button {
+  width: 100px;
+  height: 80px;
+  font-size: 20px;
+  background-color: #fff;
+  border: 2px solid #333;
+  border-radius: 5px;
+  cursor: pointer;
+}
+section .urna .teclado button:hover {
+  background-color: #f0f0f0;
+}
+section .urna .teclado button:active {
+  transform: scale(0.98);
+}
+section .urna .teclado .botao-branco {
+  background-color: #f1f1f1;
+}
+section .urna .teclado .botao-corrige {
+  background-color: #fda21b;
+}
+section .urna .teclado .botao-confirma {
+  background-color: #008000;
+  grid-column: span 3;
+  color: white;
+  font-size: 24px;
+}
+
+/*# sourceMappingURL=data:application/json;charset=utf-8,%7B%22version%22:3,%22sourceRoot%22:%22%22,%22sources%22:%5B%22../../../scss/global/_normalize.scss%22,%22../../../scss/global/_fonts.scss%22,%22../../../scss/pages/urna/partials/_section.scss%22%5D,%22names%22:%5B%5D,%22mappings%22:%22AAAA;EACI;EACA;EACA;EACA;;;ACJJ;AAAA;AAAA;AAAA;ACAA;EACI;EACA;EACA;EACA;EACA;EACA;;AAEA;EACE;EACA;EACA;EACA;;AAEA;EACE;;AAEA;EACE;EACA;EACA;EACA;;AAEA;EACE;EACA;EACA;EACA;EACA;;AAKN;EACE;EACA;EACA;EACA;;AAEA;EACE;EACA;EACA;EACA;EACA;EACA;EACA;;AAEA;EACE;;AAGF;EACE;;AAIJ;EACE;;AAGF;EACE;;AAGF;EACE;EACA;EACA;EACA%22,%22file%22:%22urna.css%22%7D */

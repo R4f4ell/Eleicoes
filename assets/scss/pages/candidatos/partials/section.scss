@@ -1,8 +1,9 @@
 section{
-    background-image: url(/assets/images/global/fundoPadrao.png);
+    background-image: url(/assets/images/pexels-njeromin-14530325.jpg);
     background-size: cover;
     background-position: center center;
-    min-height: 100%;
+    background-attachment: fixed;
+    min-height: 100vh;
     padding-bottom: 20px;
 
     .titulo{
@@ -24,13 +25,78 @@ section{
         display: flex;
         flex-direction: column;
         align-items: center;
-        gap: 40px;
         padding-top: 5em;
+        
+        p{
+            align-self: start;
+            margin-left: 40px;
+            font-size: 25px;
+            font-weight: 600;
+            color: white;
+
+            &.numero{
+                margin-bottom: 60px;
+                text-align: center;
+                width: 100%;
+                margin-left: 0;
+            }
+            &.centro{
+                text-align: center;
+                width: 100%;
+                margin-left: 0;
+            }
+        }
 
         div{
+            margin: 10px 0 0px 0;
             width: 80%;
             height: 300px;
-            border: 1px solid white;
+            border-radius: 10px;
         }
+
+        .primeiroCandidato{
+            background-image: url(/assets/images/candidatoUm);
+            background-size: cover;
+            background-position: center center;
+        }
+        .segundoCandidato{
+            background-image: url(/assets/images/candidatoDois.jfif);
+            background-size: cover;
+            background-position: center center;
+        }
+        .terceiroCandidato{
+            background-image: url(/assets/images/candidatoTres.avif);
+            background-size: cover;
+            background-position: center center;
+        }
+    }
+
+    .button{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 40px;
+
+        a{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: white;
+            width: 170px;
+            height: 50px;
+            color: black;
+            border-radius: 20px;
+            font-size: 20px;
+            text-decoration: none;
+        }
+    }
+
+    .voltar{
+        position: fixed;
+        background: url(/assets/images/up-left-arrow_10117594.png);
+        background-size: cover;
+        width: 50px;
+        height: 50px;
+        bottom: 20px;
+        right: 20px;
     }
 }
