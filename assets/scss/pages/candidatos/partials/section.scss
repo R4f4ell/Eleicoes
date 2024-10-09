@@ -1,0 +1,36 @@
+section{
+    background-image: url(/assets/images/global/fundoPadrao.png);
+    background-size: cover;
+    background-position: center center;
+    min-height: 100%;
+    padding-bottom: 20px;
+
+    .titulo{
+        h1{
+            text-align: center;
+            padding-top: 50px;
+            font-size: 50px;
+            color: white;
+        }
+    
+        p{
+            text-align: center;
+            color: white;
+            font-size: 20px;
+        }
+    }
+
+    .conteudo{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+        padding-top: 5em;
+
+        div{
+            width: 80%;
+            height: 300px;
+            border: 1px solid white;
+        }
+    }
+}
