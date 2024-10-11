@@ -1,0 +1,39 @@
+@media screen and (min-width: 480px){
+    section{
+        .conteudo{
+            p{
+                align-self: center;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 800px) and (max-width: 969px){
+    section{
+        .conteudo{
+            div{
+                width: 60%;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 970px){
+    section{
+        .conteudo{
+            div{
+                width: 50%;
+            }
+
+            .primeiroCandidato{
+                height: 400px;
+            }
+            .segundoCandidato{
+                height: 400px;
+            }
+            .terceiroCandidato{
+                height: 400px;
+            }
+        }
+    }
+}

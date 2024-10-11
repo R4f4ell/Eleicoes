@@ -1,5 +1,5 @@
 section{
-    background-image: url(/assets/images/pexels-njeromin-14530325.jpg);
+    background-image: url(/assets/images/fundoGlobal.jpg);
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
@@ -80,10 +80,10 @@ section{
             display: flex;
             align-items: center;
             justify-content: center;
-            background-color: white;
+            background-color: #007BEA;
+            color: white;
             width: 170px;
             height: 50px;
-            color: black;
             border-radius: 20px;
             font-size: 20px;
             text-decoration: none;
@@ -92,7 +92,7 @@ section{
 
     .voltar{
         position: fixed;
-        background: url(/assets/images/up-left-arrow_10117594.png);
+        background: url(/assets/images/back.png);
         background-size: cover;
         width: 50px;
         height: 50px;

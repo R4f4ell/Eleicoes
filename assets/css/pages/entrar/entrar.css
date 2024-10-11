@@ -10,7 +10,7 @@
     src: url();
 } */
 section {
-  background-image: url(/assets/images/pexels-njeromin-14530325.jpg);
+  background-image: url(/assets/images/fundoGlobal.jpg);
   background-size: cover;
   background-position: center center;
   height: 100vh;
@@ -34,14 +34,14 @@ section .conteudo p {
   font-size: 18px;
 }
 section .conteudo a {
+  background-color: #007BEA;
+  color: white;
   display: flex;
   align-items: center;
   justify-content: center;
   text-decoration: none;
-  background-color: white;
   width: 170px;
   height: 50px;
-  color: black;
   border-radius: 20px;
   font-size: 20px;
 }

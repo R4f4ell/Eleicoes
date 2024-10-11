@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(/assets/images/fundoGlobal.jpg);
+    background-size: cover;
+    background-position: center center;
+
+    .urna-container{
+        width: 80%;
+        background-color: #fff;
+        padding: 20px;
+        border: 2px solid #000;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+        
+        .display {
+            margin-bottom: 20px;
+            width: 100%;
+            
+            #tela {
+                width: 100%;
+                height: 50px;
+                font-size: 24px;
+                text-align: center;
+                border: 2px solid #000;
+                border-radius: 5px;
+            }
+        }
+        
+        .teclado {
+            display: grid;
+            grid-template-columns: repeat(3, 80px);
+            grid-gap: 10px;
+            margin-bottom: 20px;
+            
+            button {
+                height: 60px;
+                font-size: 24px;
+                cursor: pointer;
+                border: none;
+                border-radius: 5px;
+                background-color: #ddd;
+                transition: background-color 0.2s;
+                
+                &:hover {
+                    background-color: #ccc;
+                }
+            }
+        }
+        
+        .actions {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            gap: 5px;
+            
+            .btn-action {
+                background-color: #555;
+                color: #fff;
+            }
+            
+            .confirmar {
+                background-color: green;
+                color: white;
+            }
+            
+            button {
+                width: 150px;
+                height: 40px;
+            }
+        }
+    }
+
+    .voltar{
+        position: fixed;
+        background: url(/assets/images/back.png);
+        background-size: cover;
+        width: 50px;
+        height: 50px;
+        bottom: 20px;
+        right: 20px;
+    }
+}
+

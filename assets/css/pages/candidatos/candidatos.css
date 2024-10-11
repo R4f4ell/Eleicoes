@@ -10,7 +10,7 @@
     src: url();
 } */
 section {
-  background-image: url(/assets/images/pexels-njeromin-14530325.jpg);
+  background-image: url(/assets/images/fundoGlobal.jpg);
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
@@ -82,17 +82,17 @@ section .button a {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: white;
+  background-color: #007BEA;
+  color: white;
   width: 170px;
   height: 50px;
-  color: black;
   border-radius: 20px;
   font-size: 20px;
   text-decoration: none;
 }
 section .voltar {
   position: fixed;
-  background: url(/assets/images/up-left-arrow_10117594.png);
+  background: url(/assets/images/back.png);
   background-size: cover;
   width: 50px;
   height: 50px;
@@ -100,4 +100,29 @@ section .voltar {
   right: 20px;
 }
 
-/*# sourceMappingURL=data:application/json;charset=utf-8,%7B%22version%22:3,%22sourceRoot%22:%22%22,%22sources%22:%5B%22../../../scss/global/_normalize.scss%22,%22../../../scss/global/_fonts.scss%22,%22../../../scss/pages/candidatos/partials/section.scss%22%5D,%22names%22:%5B%5D,%22mappings%22:%22AAAA;EACI;EACA;EACA;EACA;;;ACJJ;AAAA;AAAA;AAAA;ACAA;EACI;EACA;EACA;EACA;EACA;EACA;;AAGI;EACI;EACA;EACA;EACA;;AAGJ;EACI;EACA;EACA;;AAIR;EACI;EACA;EACA;EACA;;AAEA;EACI;EACA;EACA;EACA;EACA;;AAEA;EACI;EACA;EACA;EACA;;AAEJ;EACI;EACA;EACA;;AAIR;EACI;EACA;EACA;EACA;;AAGJ;EACI;EACA;EACA;;AAEJ;EACI;EACA;EACA;;AAEJ;EACI;EACA;EACA;;AAIR;EACI;EACA;EACA;;AAEA;EACI;EACA;EACA;EACA;EACA;EACA;EACA;EACA;EACA;EACA;;AAIR;EACI;EACA;EACA;EACA;EACA;EACA;EACA%22,%22file%22:%22candidatos.css%22%7D */
+@media screen and (min-width: 480px) {
+  section .conteudo p {
+    align-self: center;
+  }
+}
+@media screen and (min-width: 800px) and (max-width: 969px) {
+  section .conteudo div {
+    width: 60%;
+  }
+}
+@media screen and (min-width: 970px) {
+  section .conteudo div {
+    width: 50%;
+  }
+  section .conteudo .primeiroCandidato {
+    height: 400px;
+  }
+  section .conteudo .segundoCandidato {
+    height: 400px;
+  }
+  section .conteudo .terceiroCandidato {
+    height: 400px;
+  }
+}
+
+/*# sourceMappingURL=data:application/json;charset=utf-8,%7B%22version%22:3,%22sourceRoot%22:%22%22,%22sources%22:%5B%22../../../scss/global/_normalize.scss%22,%22../../../scss/global/_fonts.scss%22,%22../../../scss/pages/candidatos/partials/_section.scss%22,%22../../../scss/pages/candidatos/partials/_sectionResponsive.scss%22%5D,%22names%22:%5B%5D,%22mappings%22:%22AAAA;EACI;EACA;EACA;EACA;;;ACJJ;AAAA;AAAA;AAAA;ACAA;EACI;EACA;EACA;EACA;EACA;EACA;;AAGI;EACI;EACA;EACA;EACA;;AAGJ;EACI;EACA;EACA;;AAIR;EACI;EACA;EACA;EACA;;AAEA;EACI;EACA;EACA;EACA;EACA;;AAEA;EACI;EACA;EACA;EACA;;AAEJ;EACI;EACA;EACA;;AAIR;EACI;EACA;EACA;EACA;;AAGJ;EACI;EACA;EACA;;AAEJ;EACI;EACA;EACA;;AAEJ;EACI;EACA;EACA;;AAIR;EACI;EACA;EACA;;AAEA;EACI;EACA;EACA;EACA;EACA;EACA;EACA;EACA;EACA;EACA;;AAIR;EACI;EACA;EACA;EACA;EACA;EACA;EACA;;;ACnGR;EAGY;IACI;;;AAMhB;EAGY;IACI;;;AAMhB;EAGY;IACI;;EAGJ;IACI;;EAEJ;IACI;;EAEJ;IACI%22,%22file%22:%22candidatos.css%22%7D */
