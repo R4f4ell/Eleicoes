@@ -16,7 +16,7 @@ function branco() {
 function confirmar() {
     let valor = document.getElementById("tela").value;
     if (valor !== "") {
-        if(valor !== '10' && valor !== '20' && valor !== '30'){
+        if(valor !== '10' && valor !== '20' && valor !== '30' && valor !== 'BRANCO'){
             alert("Digite o número correto de seu candidato")
             corrigir()
         } else {
